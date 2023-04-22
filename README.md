@@ -1,10 +1,10 @@
 # SC1015 A124 Team 10: Sleep Efficiency Project:
 
 ## About
-Our mini project for SC1015 *(Introduction to Data Science and Artificial Intelligence)* aims to explore the <u>factors that affect Sleep Efficiency</u>.
-<br/><br/>
+Our mini project for SC1015 *(Introduction to Data Science and Artificial Intelligence)* aims to explore the ***factors that affect Sleep Efficiency***.
+
 ## Background
-Studies show that more than one-third of adults in the US do not get enough sleep on a regular basis and are sleep deprived. Given the importance of sleep for our overall health and wellbeing, it's crucial that we understand the <u>factors that affect Sleep Efficiency</u>.
+Studies show that more than one-third of adults in the US do not get enough sleep on a regular basis and are sleep deprived. Given the importance of sleep for our overall health and wellbeing, it's crucial that we understand the ***factors that affect Sleep Efficiency***.
 
 ## Contributors
 
@@ -16,7 +16,7 @@ Studies show that more than one-third of adults in the US do not get enough slee
 
 ## Problem Definition
 
-* <u>Identify key factors</u> that impact sleep efficiency using the Sleep Efficiency metric
+* ***Identify key factors*** that impact sleep efficiency using Sleep Efficiency models
 
 * Sleep Efficiency: Measure of quality of sleep, % of time spent asleep while in bed.
 <br/><br/>
@@ -73,7 +73,7 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
         <tr>
       <td>Train</td>
       <td align="center">0.80</td>
-      <td align="right">0.0592</td>
+      <td align="right">0.0593</td>
     </tr>
     <tr>
       <td>Test</td>
@@ -96,12 +96,12 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
         <tr>
       <td>Train</td>
       <td align="center">0.77</td>
-      <td align="right">0.0592</td>
+      <td align="right">0.0593</td>
     </tr>
     <tr>
       <td>Test</td>
       <td align="center">0.79</td>
-      <td align="right">0.0626</td>
+      <td align="right">0.0627</td>
     </tr>
 </tbody></table>
 </ul><ul>
@@ -121,7 +121,7 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
         <tr>
       <td>Train</td>
       <td align="center">0.99</td>
-      <td align="right">0.0024</td>
+      <td align="right">0.00248</td>
     </tr>
     <tr>
       <td>Test</td>
@@ -135,14 +135,13 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
 
 ## Conclusions
 
-*   All 3 models identified important features; however, <u>each set was not the same</u>.
+*   All 3 models identified important features; however, ***each set was not the same***.
 
 *    In our Lasso & Multi-Variate Linear Regression Models, features such as Age, Gender, Sleep Duration, REM Sleep Percentage, Deep Sleep Percentage, Caffeine Consumption, Alcohol Consumption & Exercise Frequency, were considered less important.
 
-*  Since the model of XGBoost also had the <u>best fit and outcome with the data</u>, we trust the model and the features that played a role.
-    *   For XGBoost, Deep Sleep Percentage, Light Sleep Percentage, Awakenings, Alcohol Consumption, Smoking Status, and Exercise Frequency were more prominent. This shows that <u>external habits can affect sleep quality</u>.
+*  Since the model of XGBoost also had the ***best fit and outcome with the data***, we trust this model and the features that played a role.
+    *   For XGBoost, Deep Sleep Percentage, Light Sleep Percentage, Awakenings, Alcohol Consumption, Smoking Status, and Exercise Frequency were more prominent. This shows that ***external habits can affect sleep quality***.
     * So to have better sleep and an improved quality of life, people should refrain from smoking and drinking while also exercising more frequently. They should also not make mid-sleep awakenings as a habit and remove any loud distractors that could potentially awaken them at night.
-<br></br>
 
 ## What Did We Learn During This Project?
 <details>
