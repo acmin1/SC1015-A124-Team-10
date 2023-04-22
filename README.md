@@ -1,25 +1,20 @@
 # SC1015 A124 Team 10: Sleep Efficiency Project:
 
 ## About
----
 Our mini project for SC1015 *(Introduction to Data Science and Artificial Intelligence)* aims to explore the <u>factors that affect Sleep Efficiency</u>.
 <br/><br/>
 ## Background
----
 Studies show that more than one-third of adults in the US do not get enough sleep on a regular basis and are sleep deprived. Given the importance of sleep for our overall health and wellbeing, it's crucial that we understand the <u>factors that affect Sleep Efficiency</u>.
-<br/><br/>
 
 ## Contributors
----
 
 |Name:| Contribution:|
 |---|---|
 |Borkar Nitika Prasad|Outlier Removal, Model 3, Presenter 1|
 |Chan Min Adeline Alyssa|Data Cleaning, EDA, Model 1, Model 2, Presenter 2|
 |G R Devansh Rao| Dataset Scaling, Model 3, Presenter 3|
-<br/><br/>
+
 ## Problem Definition
----
 
 * <u>Identify key factors</u> that impact sleep efficiency using the Sleep Efficiency metric
 
@@ -27,12 +22,9 @@ Studies show that more than one-third of adults in the US do not get enough slee
 <br/><br/>
 
 ## Data Set
----
 The dataset used for this project was retrieved from [here](https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency)
-<br/><br/>
 
 ## Our Process
----
 
 <details>
 <summary>1. Data Cleaning & Outlier Removal</summary>
@@ -140,10 +132,8 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
 </ul><ul>
 <li> Key Features: Deep Sleep Percentage, Awakenings, Smoking Status</li></ul>
 </details>
-<br/><br/>
 
 ## Conclusions
-----
 
 *   All 3 models identified important features; however, <u>each set was not the same</u>.
 
@@ -155,7 +145,6 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
 <br></br>
 
 ## What Did We Learn During This Project?
----
 <details>
 <summary>Key Learning Points:</summary>
 <ul>
@@ -168,10 +157,8 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
 
 </ul>
 </details>
-<br></br>
 
 ## References
----
 * https://www.sleepfoundation.org/how-sleep-works/how-much-sleep-do-we-really-need
 * https://www.cdc.gov/sleep/data_statistics.html
 * https://www.kaggle.com/code/unmoved/regress-sleep-efficiency-xgb
