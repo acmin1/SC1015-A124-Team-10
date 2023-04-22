@@ -26,7 +26,7 @@ The dataset used for this project was retrieved from [here](https://www.kaggle.c
 
 ## Our Process
 
-<details>
+<details open>
 <summary>1. Data Cleaning & Outlier Removal</summary>
 <ul>
 <li> Checking for duplicates and missing values</li>
@@ -144,7 +144,7 @@ Random Sampling for Splitting 80% Train & 20% Test Dataset
     * So to have better sleep and an improved quality of life, people should refrain from smoking and drinking while also exercising more frequently. They should also not make mid-sleep awakenings as a habit and remove any loud distractors that could potentially awaken them at night.
 
 ## What Did We Learn During This Project?
-<details>
+<details open>
 <summary>Key Learning Points:</summary>
 <ul>
 <li> Z Score</li>
